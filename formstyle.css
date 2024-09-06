@@ -1,11 +1,22 @@
 form{
     width:100%;
     background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 label{
     display:block;
     padding: 20px;
-    width:100%;
-    background-color: bisque;
+    width:60%;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+    margin-top:10px;
+    border-radius: 20px;
+    border: 1px dotted gray;
+} 
+
+input{
+    margin-left: 10px;
+    width:60%;
+    padding: 10px;
 }
