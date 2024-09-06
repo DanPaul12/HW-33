@@ -1,17 +1,18 @@
 img{
-    max-width: 300px;
+    width: 200px;
     height:auto;
     border: 10px solid lightblue;
-    border-radius: 25px;
+    border-radius: 75px;
     margin: 20px;
 }
 
 img#jordan{
     margin-bottom: 75px;
+    width: 250px;
 }
 
 img#kawhi{
-    width: 500;
+    width: 300px;
     margin-bottom: 100px;
     margin-right: 50px;
 }
@@ -39,4 +40,36 @@ li a{
 li a:hover{
     background-color: rgb(161, 161, 183);
     border: 3px solid black;
+}
+
+form{
+    border:1px solid rgb(46, 48, 46);
+    border-radius: 25px;
+    margin: 20px;
+    padding:20px;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+
+
+input[type=textarea]{
+    margin:10px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+input[type="radio"]{
+    margin: 5px;
+}
+
+img:hover{
+    border: 25px solid darkblue;
+    transform: 2;
 }
