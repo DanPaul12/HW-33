@@ -13,10 +13,45 @@ label{
     margin-top:10px;
     border-radius: 20px;
     border: 1px dotted gray;
+    box-sizing: content-box;
 } 
 
 input{
     margin-left: 10px;
     width:60%;
     padding: 10px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 5px solid lightseagreen;
+}
+
+button{
+    margin:25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    background-color: rgb(132, 82, 82);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 10px solid yellow;
+    color: yellow;
+    background-color: rgb(185, 87, 87);
+}
+
+ul{
+    width:100%;
+    background-color: aliceblue;
+    list-style: none;
+}
+
+li{
+    display:block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(149, 158, 165);
+    padding: 20px;
 }
