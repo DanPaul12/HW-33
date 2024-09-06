@@ -1,0 +1,11 @@
+form{
+    width:100%;
+    background-color: aliceblue;
+}
+
+label{
+    display:block;
+    padding: 20px;
+    width:100%;
+    background-color: bisque;
+}
