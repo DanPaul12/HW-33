@@ -17,6 +17,13 @@ img#kawhi{
     margin-right: 50px;
 }
 
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 200;
+    text-align: center;
+}
+
 .nav{
     list-style: none;
     margin: 0;
@@ -67,4 +74,9 @@ input[type=radio]{
 img:hover{
     border: 25px solid darkblue;
     transform: 2;
+}
+
+textarea{
+    margin-top:20px;
+    width:60%
 }

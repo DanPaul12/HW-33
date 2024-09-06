@@ -1,14 +1,14 @@
 <html>
 <head>
-    <title>Guitar Gallery</title>
+    <title>Top 5 Gallery</title>
     <link rel="stylesheet" href="entstyle.css">
 </head>
 <body>
-    <h1>Entertainment Site</h1>
+    <h1>Who is the all-time starting 5?</h1>
     <ul class="nav">
-        <li><a href="#">Best Teams</a></li>
-        <li><a href="#">Worst Teams</a></li>
-        <li><a href="#">Feedback Form</a></li>
+        <li><a href="#bestteams">Top 5</a></li>
+        <li><a href="#">Bottom 5</a></li>
+        <li><a href="#feedback">Feedback Form</a></li>
     </ul>
     <div id="bestteams">
         <h2>The Top 5</h2>
@@ -20,9 +20,11 @@
         <img src="kawhi.jpg" id="kawhi"></img>
     </div>
     <div id="worstteams">
+    <!--didn't have time for this part-->
     </div>
-    <form id="feedback">
-        <label>How do you feel about this analysis?</label>
+    <div id="feedback">
+    <form>
+        <p>How do you feel about this analysis?<p>
         <label for="agree">Agree</label>
         <input type="radio" id="agree" value="agree" name="agreement">
         <label for="disagree">Disagree</label>
@@ -31,5 +33,6 @@
         <label for="expound">Please expound.</label>
         <textarea id="expound" placeholder="Write your answer here" rows="4" columns="50"></textarea>
     </form>
+    </div>
 </body>
 </html>

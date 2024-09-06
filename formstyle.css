@@ -44,14 +44,50 @@ button:hover{
 }
 
 ul{
-    width:100%;
-    background-color: aliceblue;
     list-style: none;
+    margin:0;
+    padding:0;
 }
 
-li{
+li a{
     display:block;
+    width:100%;
+    background-color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:rgb(149, 158, 165);
-    padding: 20px;
+    color:rgb(85, 91, 95);
+    padding: 20px 8px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgb(137, 181, 219);
+    border: 10px solid rgb(61, 57, 57)
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+th{
+    background-color: brown;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+th,td{
+    padding:20px;
+    text-align: left;
+}
+
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+tr:hover{
+    background-color: antiquewhite;
 }
