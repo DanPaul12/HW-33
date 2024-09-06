@@ -53,21 +53,16 @@ form{
 
 label{
     display: block;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
     background-color: blanchedalmond;
-}
-
-
-input[type=textarea]{
-    margin:10px;
-    border: 1px solid gray;
     border-radius: 25px;
+    width:50%;
 }
 
-input[type="radio"]{
-    margin: 5px;
+input[type=radio]{
+    margin: 20px;
 }
+
 
 img:hover{
     border: 25px solid darkblue;

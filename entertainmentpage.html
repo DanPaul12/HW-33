@@ -22,12 +22,14 @@
     <div id="worstteams">
     </div>
     <form id="feedback">
-        <label for="agree">How do you feel about this analysis?</label>
-        <input type="radio" id="agree" value="agree">Agree<input>
-        <input type="radio" id="disagree" value="disagree">Disagree<input>
+        <label">How do you feel about this analysis?</label><br>
+        <label for="agree">Agree</label>
+        <input type="radio" id="agree" value="agree" name="agreement">
+        <label for="disagree">Disagree</label>
+        <input type="radio" id="disagree" value="disagree" name="agreement">
 
         <label for="expound">Please expound.</label>
-        <input type="textarea" id="expound" placeholder="Write your answer here" rows="50" columns="100"></input>
+        <textarea id="expound" placeholder="Write your answer here" rows="4" columns="50"></textarea>
     </form>
 </body>
 </html>
