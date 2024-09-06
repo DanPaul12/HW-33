@@ -1,5 +1,11 @@
 img{
     max-width: 300px;
     height:auto;
-    border: 1px solid black;
+    border: 10px solid lightblue;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+img#jordan{
+    margin-bottom: 25px;
 }
